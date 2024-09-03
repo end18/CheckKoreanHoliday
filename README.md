@@ -19,6 +19,8 @@ check below url for api key
 > print(foo.checkHoliday()) #for today
 >
 > from datetime import datetime
+> 
 > someday = datetime.strptime('20240917','%Y%m%d')
+> 
 > print(foo.checkHoliday(someday)) #for someday
 
